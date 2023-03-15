@@ -1,4 +1,4 @@
-package com.platzi.pizza.persitence.entity;
+package com.platzi.pizza.persistence.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,19 +12,19 @@ import java.util.Objects;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class OrderItemId implements Serializable {
-    private Integer idOrder;
-    private Integer idItem;
+public class UserRoleId implements Serializable {
+    private String username;
+    private String role;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof OrderItemId that)) return false;
-        return Objects.equals(idOrder, that.idOrder) && Objects.equals(idItem, that.idItem);
+        if (!(o instanceof UserRoleId that)) return false;
+        return Objects.equals(username, that.username) && Objects.equals(role, that.role);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(idOrder, idItem);
+        return Objects.hash(username, role);
     }
 }

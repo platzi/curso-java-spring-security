@@ -1,6 +1,6 @@
 package com.platzi.pizza.web.controller;
 
-import com.platzi.pizza.persitence.entity.PizzaEntity;
+import com.platzi.pizza.persistence.entity.PizzaEntity;
 import com.platzi.pizza.service.PizzaService;
 import com.platzi.pizza.service.dto.UpdatePizzaPriceDto;
 import org.springframework.beans.factory.annotation.Autowired;

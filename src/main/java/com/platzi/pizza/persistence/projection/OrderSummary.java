@@ -1,4 +1,4 @@
-package com.platzi.pizza.persitence.projection;
+package com.platzi.pizza.persistence.projection;
 
 import java.time.LocalDateTime;
 

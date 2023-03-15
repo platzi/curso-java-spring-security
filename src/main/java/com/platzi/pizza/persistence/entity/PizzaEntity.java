@@ -1,7 +1,7 @@
-package com.platzi.pizza.persitence.entity;
+package com.platzi.pizza.persistence.entity;
 
-import com.platzi.pizza.persitence.audit.AuditPizzaListener;
-import com.platzi.pizza.persitence.audit.AuditableEntity;
+import com.platzi.pizza.persistence.audit.AuditPizzaListener;
+import com.platzi.pizza.persistence.audit.AuditableEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EntityListeners;

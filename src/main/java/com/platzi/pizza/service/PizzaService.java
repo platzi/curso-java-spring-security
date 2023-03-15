@@ -1,8 +1,8 @@
 package com.platzi.pizza.service;
 
-import com.platzi.pizza.persitence.entity.PizzaEntity;
-import com.platzi.pizza.persitence.repository.PizzaPagSortRepository;
-import com.platzi.pizza.persitence.repository.PizzaRepository;
+import com.platzi.pizza.persistence.entity.PizzaEntity;
+import com.platzi.pizza.persistence.repository.PizzaPagSortRepository;
+import com.platzi.pizza.persistence.repository.PizzaRepository;
 import com.platzi.pizza.service.dto.UpdatePizzaPriceDto;
 import com.platzi.pizza.service.exception.EmailApiException;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package com.platzi.pizza.service;
 
-import com.platzi.pizza.persitence.entity.CustomerEntity;
-import com.platzi.pizza.persitence.repository.CustomerRepository;
+import com.platzi.pizza.persistence.entity.CustomerEntity;
+import com.platzi.pizza.persistence.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.platzi.pizza.persitence.entity;
+package com.platzi.pizza.persistence.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,6 +1,6 @@
-package com.platzi.pizza.persitence.audit;
+package com.platzi.pizza.persistence.audit;
 
-import com.platzi.pizza.persitence.entity.PizzaEntity;
+import com.platzi.pizza.persistence.entity.PizzaEntity;
 import jakarta.persistence.PostLoad;
 import jakarta.persistence.PostPersist;
 import jakarta.persistence.PostUpdate;

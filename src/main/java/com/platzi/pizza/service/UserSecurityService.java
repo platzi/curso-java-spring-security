@@ -1,8 +1,8 @@
 package com.platzi.pizza.service;
 
-import com.platzi.pizza.persitence.entity.UserEntity;
-import com.platzi.pizza.persitence.entity.UserRoleEntity;
-import com.platzi.pizza.persitence.repository.UserRepository;
+import com.platzi.pizza.persistence.entity.UserEntity;
+import com.platzi.pizza.persistence.entity.UserRoleEntity;
+import com.platzi.pizza.persistence.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

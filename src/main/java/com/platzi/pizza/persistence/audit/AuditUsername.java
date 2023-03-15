@@ -1,4 +1,4 @@
-package com.platzi.pizza.persitence.audit;
+package com.platzi.pizza.persistence.audit;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.Authentication;

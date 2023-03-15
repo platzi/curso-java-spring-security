@@ -1,7 +1,7 @@
 package com.platzi.pizza.web.controller;
 
-import com.platzi.pizza.persitence.entity.OrderEntity;
-import com.platzi.pizza.persitence.projection.OrderSummary;
+import com.platzi.pizza.persistence.entity.OrderEntity;
+import com.platzi.pizza.persistence.projection.OrderSummary;
 import com.platzi.pizza.service.OrderService;
 import com.platzi.pizza.service.dto.RandomOrderDto;
 import org.springframework.beans.factory.annotation.Autowired;
